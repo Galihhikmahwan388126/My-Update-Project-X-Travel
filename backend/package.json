@@ -1,0 +1,35 @@
+{
+  "name": "X-Travel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "auth": "^0.0.1",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cookieparser": "^0.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "global": "^4.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongod": "^2.0.0",
+    "mongodb": "^6.3.0",
+    "mongoose": "^7.5.0",
+    "node-watch": "^0.7.4",
+    "openssl": "^2.0.0",
+    "punycode": "^2.3.1",
+    "server": "^1.0.38",
+    "yarn": "^1.22.21"
+  }
+}
